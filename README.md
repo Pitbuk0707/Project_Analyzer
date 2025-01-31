@@ -20,6 +20,12 @@ Parallel processing for scalability
 
 2. Architecture & Components
    
+   graph LR
+    A[News Gatherer] --> B[Content Scraper]
+    B --> C[Financial Analyzer]
+    C --> D[Data Validator]
+    D --> E[Final Dataset]
+   
    a. LangGraph Workflow
       graph LR
          A[News Gatherer] --> B[Content Scraper]
