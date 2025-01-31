@@ -10,6 +10,6 @@
                                │
                                ▼
                          ┌──────────────────┐       ┌───────────────────┐
-                         │ Claude API       │─────▶│ Final Dataset      │
+                         │ Gimini API       │─────▶│ Final Dataset      │
                          │ (NLP Analysis)   │       │ (Enriched Data)    │
                          └──────────────────┘       └───────────────────┘

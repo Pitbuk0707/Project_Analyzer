@@ -1,0 +1,7 @@
+google-generativeai
+langgraph
+trafilatura
+selectolax
+httpx
+python-dotenv
+requests
