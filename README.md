@@ -18,22 +18,22 @@ Automated system for tracking project cost overruns and delays using AI agents.
    pip install -r requirements.txt
 
 
-### 4. Scalability Improvements
+### Scalability Improvements
 
-1. **Data Pipeline**:
-   - Use Apache Airflow for workflow orchestration
-
-2. **Enhanced Sources**:
+1. **Enhanced Sources**:
    - Add government procurement portals
    - Integrate RSS feeds
    - Use Scrapy spider + Common Crawl  (for open-source)
 
-3. **Monitoring**:
+2. **Monitoring**:
    - Prometheus/Grafana for system metrics
    - Sentry for error tracking
 
-4. **Advanced AI**:
+3. **Advanced AI**:
    - Fine-tuned LLM models
    - Multi-source verification system
    - Confidence scoring for metrics
    - Add response caching
+4. **Data Pipeline**:
+   - Use Apache Airflow for workflow orchestration
+
