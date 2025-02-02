@@ -5,3 +5,4 @@ selectolax
 httpx
 python-dotenv
 requests
+firecrawl-py

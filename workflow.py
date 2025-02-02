@@ -266,7 +266,7 @@ def fetch_world_bank_projects():
         "format": "json",
         "status": "Closed",
         # "fl": "id,project_name,countryname,boardapprovaldate,closingdate,totalamt,url,status",
-        "rows": "2"
+        "rows": "12"
     }
     
     try:
