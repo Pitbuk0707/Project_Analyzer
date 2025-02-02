@@ -1,3 +1,34 @@
+[World Bank API] → [Project Fetcher] → [Processing Pipeline] → [CSV Writer]
+                         │
+                         ├── [News Gatherer] ↔ [Google Search API]
+                         │
+                         ├── [Content Scraper] ↔ [Firecrawl API]
+                         │
+                         ├── [Financial Analyzer] ↔ [Gemini LLM]
+                         │
+                         └── [Data Validator]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ┌────────────────┐       ┌──────────────────┐       ┌───────────────────┐
 │ World Bank API │─────▶│ Initial Dataset   │─────▶│ Project Analyzer   │
 └────────────────┘       │ (Part 1)         │       │ (AI Agent)         │

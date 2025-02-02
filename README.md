@@ -71,6 +71,30 @@ Parallel processing for scalability
    pip install -r requirements.txt
 
 
+
+
+### Wworkflow 2 :
+
+
+[Initial State]
+  │
+  ▼
+[News Gatherer] → (Google Search API Calls)
+  │
+  ▼
+[Content Scraper] → (Firecrawl Batch Processing)
+  │
+  ▼
+[Financial Analyzer] → (Gemini LLM Interactions)
+  │
+  ▼
+[Data Validator] → (Data Normalization)
+  │
+  ▼
+[CSV Writer] → (Incremental Save)
+
+
+
 ### Scalability Improvements
 
 1. **Enhanced Sources**:
